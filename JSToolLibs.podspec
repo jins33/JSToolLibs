@@ -28,7 +28,6 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
-  s.platform = :ios, '7.0'
   s.source_files = 'JSToolLibs/Classes/**/*'
   s.resource_bundles = {
     'JSToolLibs' => ['JSToolLibs/Assets/*.png']
