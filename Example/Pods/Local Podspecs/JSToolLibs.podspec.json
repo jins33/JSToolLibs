@@ -1,6 +1,6 @@
 {
   "name": "JSToolLibs",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "Tool Packages of iOS development.",
   "description": "This is the first time i try to make a tool repo for myself.",
   "homepage": "https://github.com/jins33/JSToolLibs",
@@ -10,15 +10,11 @@
   },
   "source": {
     "git": "https://github.com/jins33/JSToolLibs.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "7.0"
   },
   "source_files": "JSToolLibs/Classes/**/*",
-  "resource_bundles": {
-    "JSToolLibs": [
-      "JSToolLibs/Assets/*.png"
-    ]
-  }
+  "public_header_files": "JSToolLibs/Classes/**/*.h"
 }

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BB67D9585E23C41BC11A6CFF"
+               BlueprintIdentifier = "5ACA68CFB620736DB393270B"
                BuildableName = "JSToolLibs.framework"
                BlueprintName = "JSToolLibs"
                ReferencedContainer = "container:Pods.xcodeproj">
