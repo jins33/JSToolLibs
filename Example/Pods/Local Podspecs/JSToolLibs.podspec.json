@@ -1,8 +1,8 @@
 {
   "name": "JSToolLibs",
   "version": "0.1.0",
-  "summary": "A short description of JSToolLibs.",
-  "description": "",
+  "summary": "Tool Packages of iOS development.",
+  "description": "This is the first time i try to make a tool repo for myself.",
   "homepage": "https://github.com/jins33/JSToolLibs",
   "license": "MIT",
   "authors": {
