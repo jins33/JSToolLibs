@@ -20,15 +20,15 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/JSToolLibs"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/jins33/JSToolLibs"
+  # s.screenshots    = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "jins33" => "jinshengh33@outlook.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JSToolLibs.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/jins33/JSToolLibs.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '7.0'
+  s.platform = :ios, '7.0'
   s.source_files = 'JSToolLibs/Classes/**/*'
   s.resource_bundles = {
     'JSToolLibs' => ['JSToolLibs/Assets/*.png']
